@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Bold.woff2') format('woff2'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf') format('truetype'), url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Regular.woff2') format('woff2'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'), url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant-Bold.eot');
+    src: url('../fonts/Cormorant-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Cormorant-Bold.woff2') format('woff2'), url('../fonts/Cormorant-Bold.woff') format('woff'), url('../fonts/Cormorant-Bold.ttf') format('truetype'), url('../fonts/Cormorant-Bold.svg#Cormorant-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant-SemiBold.eot');
+    src: url('../fonts/Cormorant-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Cormorant-SemiBold.woff2') format('woff2'), url('../fonts/Cormorant-SemiBold.woff') format('woff'), url('../fonts/Cormorant-SemiBold.ttf') format('truetype'), url('../fonts/Cormorant-SemiBold.svg#Cormorant-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

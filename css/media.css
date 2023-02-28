@@ -1,0 +1,194 @@
+@media (max-width:992px) {
+    .mobile_menu {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 51px;
+    }
+    .header__link {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .menu_btn.menu_active span:before {
+        width: 10px;
+        transform: rotate(-45deg);
+        transform-origin: left bottom;
+    }
+    .menu_btn.menu_active span:after {
+        width: 10px;
+        transform: rotate(45deg);
+        transform-origin: left top;
+    }
+    .menu_wrap {
+        visibility: hidden;
+        opacity: 0;
+    }
+    .menu_wrap.menu_active {
+        visibility: visible;
+        opacity: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #222;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        transition: all 0.5s linear;
+    }
+    .menu_wrap.menu_active .menu {
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+    .menu_wrap.menu_active .menu li {
+        padding-top: 20px;
+    }
+    /* hero*/
+    .hero__content-subtitle {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    /*hero*/
+    /*tatto*/
+    .tattoo__content-subtitle {
+        width: 100%;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .tattoo__content {
+        text-align: center;
+    }
+    /*tatto*/
+    /*treathments*/
+    .treatments__card {
+        width: 100%;
+        text-align: center;
+    }
+    /*treathments*/
+    /*facials*/
+    .facials__slide-left {
+        text-align: center;
+    }
+    .facials__slide-right {
+        width: 100%;
+    }
+    .owl-dots {
+        bottom: 1%;
+        left: 6%;
+    }
+    /*facials*/
+    /*price*/
+    .price__display-left {
+        width: 100%;
+    }
+    .price__display-right {
+        width: 50%;
+    }
+    button.owl-prev {
+        top: 67%;
+        left: 2%;
+    }
+    button.owl-next {
+        top: 67%;
+        right: 52%;
+    }
+    /*price*/
+    /*about*/
+    .d-flex {
+        display: block;
+        text-align: center;
+    }
+    /*about*/
+    /*footer*/
+    .footer__content-m {
+        width: 52%;
+    }
+    /*footer*/
+}
+
+@media (max-width:768px) {
+    .hero__content-title {
+        text-align: center;
+    }
+    .facials__slide-left {
+        width: 100%;
+    }
+    .facials__slide-left-subtutle {
+        width: 100%;
+    }
+    .footer__content-m {
+        width: 100%;
+    }
+    .footer__content {
+        width: 100%;
+        text-align: center;
+    }
+    .media-w {
+        width: 50%;
+    }
+    .footer__info {
+        text-align: center;
+    }
+    .footer__content-border {
+        text-align: center;
+    }
+}
+
+@media (max-width:600px) {
+    .hero__content-title {
+        font-size: 77px;
+    }
+    .hero__content-subtitle {
+        font-size: 23px;
+    }
+    .hero__btn {
+        width: 430px;
+        height: 94px;
+        font-size: 53px;
+    }
+    .footer__content-r {
+        width: 100%;
+    }
+    .map {
+        width: 100%;
+    }
+    .about__left img {
+        width: 100%;
+    }
+    .price__table-info {
+        font-size: 17px;
+    }
+    .facials__slide-left__text {
+        width: 100%;
+    }
+    .facials__slide-left__price {
+        width: 100%;
+    }
+    .price-m {
+        width: 50%;
+    }
+}
+
+@media (max-width:480px) {
+    .treatments__content IMG {
+        width: 100%;
+    }
+}
+
+@media (max-width:480px) {
+    .hero__btn {
+        width: 308px;
+        height: 84px;
+        font-size: 40px;
+    }
+    .header__container {
+        display: block;
+    }
+    .logo {
+        padding-top: 42.5px;
+    }
+    .tattoo__content-img img {
+        width: 100%;
+    }
+}
