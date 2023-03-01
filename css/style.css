@@ -126,7 +126,7 @@ button {
     display: block;
     width: 40px;
     height: 40px;
-    background: #fff;
+    /* background: #fff; */
     border-radius: 50px;
     position: relative;
 }
@@ -135,13 +135,13 @@ button {
 .menu_btn span:before,
 .menu_btn span::after {
     display: block;
-    width: 20px;
+    width: 31px;
     height: 2px;
-    background: #222;
+    background: linear-gradient(90.16deg, #C78D34 -6.29%, #D9C46E 45.08%, #C78D34 104.24%);
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -10px;
+    margin-left: -15px;
     margin-top: -1px;
     transition: all 0.4s linear;
 }

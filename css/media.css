@@ -171,12 +171,9 @@
 }
 
 @media (max-width:480px) {
-    .treatments__content IMG {
+    .treatments__content img {
         width: 100%;
     }
-}
-
-@media (max-width:480px) {
     .hero__btn {
         width: 308px;
         height: 84px;
@@ -190,5 +187,67 @@
     }
     .tattoo__content-img img {
         width: 100%;
+    }
+    .header__link:not(:last-child) {
+        margin-right: 0px;
+    }
+    .header__contact-link {
+        margin-left: 12px;
+    }
+}
+
+@media (max-width:480px) {
+    .mobile_menu {
+        right: 14px;
+    }
+    .logo_img {
+        width: 233px;
+    }
+    .logo {
+        padding-top: 50.5px;
+    }
+    .hero__content-title {
+        font-size: 48px;
+        line-height: 63px;
+    }
+    .hero__content-subtitle {
+        font-size: 17px;
+        line-height: 34px;
+    }
+    .hero__btn {
+        width: 245px;
+        height: 82px;
+        font-size: 35px;
+    }
+    .facials__slide-left__price {
+        margin-bottom: 20px;
+    }
+    .facials__slide-left__text {
+        font-size: 18px;
+    }
+    .facials__slide-left__price {
+        font-size: 19px;
+        line-height: 21px;
+    }
+    .price__table-info {
+        font-size: 16px;
+    }
+    .price__table_count {
+        font-size: 16px;
+    }
+    .price__display-right {
+        width: 100%;
+    }
+    button.owl-prev {
+        top: 70%;
+        left: 3%;
+    }
+    button.owl-next {
+        top: 70%;
+        right: 2%;
+    }
+    .about__right-subtitle {
+        font-size: 16px;
+        margin-top: 20px;
     }
 }
