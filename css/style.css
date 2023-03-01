@@ -498,6 +498,23 @@ button.owl-next {
     padding: 30px 0 70px;
 }
 
+.about_left-back {
+    /* background: url(../img/about.png) no-repeat center/cover; */
+    filter: drop-shadow(0px 0px 22px rgba(0, 0, 0, 1.25));
+}
+
+.about__title {
+    font-family: 'Cormorant', serif, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: -0.02em;
+    color: #D0BC70;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .about__right-subtitle {
     width: 885px;
     font-style: normal;

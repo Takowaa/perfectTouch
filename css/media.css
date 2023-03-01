@@ -99,6 +99,9 @@
         display: block;
         text-align: center;
     }
+    .about_left-back {
+        margin-bottom: 40px;
+    }
     /*about*/
     /*footer*/
     .footer__content-m {
