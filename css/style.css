@@ -520,9 +520,9 @@ button.owl-next {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 163.5%;
-    letter-spacing: 0.16em;
-    color: #D8C46F;
+    line-height: 167%;
+    letter-spacing: 0.01em;
+    color: #7B7B7B;
 }
 
 .about__right {
